@@ -1,0 +1,88 @@
+body {
+    width: 1000px;
+    border: 3px solid black;
+    font-family : Arial;
+    font-size: 1.5em
+}
+
+div.secondary {
+    border: 3px solid red;
+    width: 280px;
+    display:inline-block;
+    padding:0.3em;
+    height: 364px;
+}
+
+div.nav {
+    display:inline-block;
+    position:absolute;
+    border: 3px solid blue;
+    width:670px;
+    height:100px;
+
+
+    background:url("cabecera.jpg")
+
+}
+
+.nav-item {
+    display: inline;
+    border: 3px solid red;
+    background-color:gray;
+    padding: 10px;
+    margin:16px;
+}
+
+.nav-item:hover {
+    display: inline;
+    border: 3px solid red;
+    background-color: lawngreen;
+    padding: 10px;
+    margin: 16px;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color:red;
+}
+
+div {
+    border: 3px solid green;
+    margin: 3px 3px 3px 3px;
+    display: inline-block;
+}
+
+footer {
+    border: 3px solid blue;
+    margin: 5px;
+}
+
+.caja {
+    width: 320px;
+    height: 260px;
+}
+
+.caja2 {
+    background-image: url("dado.jpg");
+}
+
+table a {
+    color:green;
+}
+
+table a:visited {
+    color: green;
+}
+
+table a:hover {
+    color: red;
+}
+
+table {
+    border: 2px solid gray;
+    margin:10px;
+}
+
